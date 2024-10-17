@@ -81,6 +81,10 @@ h5 {
   font-weight: 700;
   letter-spacing: 4px;
 }
+
+.nav .logo:hover{
+  cursor: pointer;
+}
 .nav ul {
   display: flex;
   gap: 55px;

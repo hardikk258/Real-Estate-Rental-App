@@ -6,8 +6,12 @@ const Footer = () => {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   return (
-   <>
-   <footer className={isHomePage ? 'homePage_footer otherPage_footer': "otherPage_footer"}>
+    <>
+      <footer
+        className={
+          isHomePage ? "homePage_footer otherPage_footer" : "otherPage_footer"
+        }
+      >
         <div className="container">
           <h4>LUXURY RENTALS</h4>
           <p>
@@ -30,12 +34,12 @@ const Footer = () => {
         <div className="container">
           <h4>Connect with us</h4>
           <p>+00 000 000 00</p>
-          <p>hs@gmail.com</p>
+          <p>hardiksingh241@gmail.com</p>
           <p>© All Rights Reserved By Hardik.</p>
         </div>
       </footer>
-   </>
-  )
-}
+    </>
+  );
+};
 
-export default Footer
+export default Footer;
